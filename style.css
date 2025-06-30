@@ -23,7 +23,7 @@ header {
 
 header h1 {
   font-size: 2.5rem;
-  color: #0077cc;
+  color: black; /* Changed from #0077cc to black */
   margin-bottom: 10px;
 }
 
@@ -35,7 +35,7 @@ nav {
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #0077cc;
+  color: black; /* Changed from #0077cc to black */
   font-weight: 600;
   font-size: 1rem;
   text-transform: uppercase;
@@ -43,7 +43,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #004a88;
+  color: #444; /* Subtle hover color change to stay dark */
 }
 
 /* Section layout */
